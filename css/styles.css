@@ -693,7 +693,7 @@ option {
 
 .check__input:checked + .check__box {
   background-color:#404BBF ;
-  background-image: url(/Vector\ \(1\).png);
+  background-image: url(./Vector\ \(1\).png);
 }
 label {
   display: flex;
