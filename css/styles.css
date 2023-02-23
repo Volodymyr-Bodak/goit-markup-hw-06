@@ -598,6 +598,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .close_button:is(:hover, :focus) .button_svg {
 fill: white ;
@@ -617,11 +619,20 @@ fill: white ;
   margin: 24px;
   
 }
+textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+ border-radius: 4px;
+ margin-top: 4px;
+ padding: 8px 16px;
+}
+
 .modal_input {
+  margin-top: 4px;
   padding-left: 33px;
   width: 360px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 .modal_input:hover, .modal_input:focus{
   border-color: #404BBF;
@@ -770,6 +781,7 @@ label {
   background: #2E2F42;
   color: rgba(255, 255, 255, 0.6);
   border-radius: 3%;
+  padding: 8px 16px;
 }
 .foot_input:focus{
   
