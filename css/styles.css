@@ -185,9 +185,8 @@ button {
   padding-bottom: 188px;
   display: block;
   max-width: 1440px;
-  margin: 0 auto;
   background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-  background-size: 1158px 600px;
+   margin: 0 auto;
   background-repeat: no-repeat;
 }
 .team {
@@ -862,7 +861,8 @@ textarea{
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  
   .container{
     max-width: 768px;
   }
@@ -940,9 +940,10 @@ textarea{
     max-height: 85px;
   }
 }
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 480px) {
   .container{
-    max-width: 1158px;
+    max-width: 480px;
   }
   
 }
