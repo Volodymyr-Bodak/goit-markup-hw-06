@@ -861,11 +861,16 @@ textarea{
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (min-width: 768px) {
   
-  .container{
+  .container {
     max-width: 768px;
+    margin: 0, auto;
+   padding-left: 15px;
+    padding-right: 15px;
+
   }
+
   .link{
     display: flex;
     flex-direction: column;
@@ -918,6 +923,8 @@ textarea{
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
+    justify-content: center;
+    align-items: center;
   }
   .real_end {
     display: flex;
@@ -941,9 +948,9 @@ textarea{
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   .container{
-    max-width: 480px;
+    max-width: 1200px;
   }
   
 }
