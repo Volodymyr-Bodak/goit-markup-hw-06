@@ -33,12 +33,68 @@
                     
                     </ul>
                 </address>
-                <button type="button" class="window_button" data-menu-open>
+                <button type="button"  id="open-menu" js-open-menu>
                     <svg width="32" height="22" fill="#2E2F42" class="svg_wind">
                         <use href="../images/sprite.svg#icon-charm_menu-hamburger"></use>
                     </svg>
                 </button>
+<div id="menu">
+    <div class="menu-container">
+        <ul class="menu_navigation">
+            <li><a href="./index.html" class="menu-dot">Studio</a></li>
+            <li><a href="./portfolio.html" class="menu-dot">Portfolio</a></li>
+            <li><a href="" class="three">Contacts</a></li>
+  </ul>
+   
+ <ul class="all">
+    <ul class="link-menu">
+    <li><a href="tel:+110001111111" class="number">+11 (000) 111-11-11</a></li>
+    <li><a href="mailto:info@devstudio.com" class="link_two">info@devstudio.com</a></li>
+    
+ </ul>
+    <ul class="icon_row_menu">
 
+    <li >
+        <a href="" class="references_icon">
+            <svg width="16px" height="16px" >
+           <use href="./images/sprite.svg#icon-instagram"></use>
+     </svg>
+    </a>
+  </li>
+    <li >
+        <a href="" class="references_icon">
+        <svg width="16px" height="16px"  >
+            <use href="./images/sprite.svg#icon-twitter-1"></use>
+      </svg>
+    </a>
+</li>
+    <li >
+        <a href="" class="references_icon">
+        <svg width="16px" height="16px"  >
+            <use href="./images/sprite.svg#icon-facebook-1"></use>
+      </svg>
+    </a>
+</li>
+    <li "><a href="" class="references_icon">
+        <svg width="16px" height="16px" >
+            <use href="./images/sprite.svg#icon-linkedin-1"></use>
+      </svg>
+
+    </a></li>
+  </ul>
+ </ul>
+
+    </div>
+  
+  <button id="close-menu">
+    <svg class="button_svg" width="8" height="9">
+    <use href="./symbol-defs.svg#icon-Vector"></use>
+    </svg>
+
+  </button>
+</div>
+
+                
         </div>
     </header>
         <main>
@@ -404,7 +460,7 @@
 
         <div data-modal class="backdrop is-hidden" >
             <div class="modal_window">
-                <button class="close_button" type="button" data-modal-close>
+                <button class="close_button" type="button" data-modal-close >
                         <svg class="button_svg" width="8" height="9">
                     <use href="./symbol-defs.svg#icon-Vector"></use>
                     </svg>
@@ -471,13 +527,7 @@
             </div>
             
         </div>
-        <div  data-menu class="menu is-hidden">
-                <button class="close_button" type="button" data-menu-close>
-                    <svg class="button_svg" width="8" height="9">
-                <use href="./symbol-defs.svg#icon-Vector"></use>
-                </svg>
-                </button>
-            </div>
+       
             
  <script src="./menu.js"></script>  
  <script src="./modal.js"></script> 
